@@ -20,9 +20,8 @@ Sebelum menjalankan service, pastikan point2 di bawah terpenuhi:
 2. install dependensi:
 
     ```bash
-    - go mod init github.com/ShadamHarizky/publisher-service
-
-    - go mod tidy
+    go mod init github.com/ShadamHarizky/publisher-service
+    go mod tidy
     ```
 
 3. Buatkan .env sesuai dengan .env-example:
